@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zanish Clothing | Premium Fashion for Gents, Ladies & Kids</title>
+  
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Welcome to Zanish Clothing. Discover premium modern fashion collections for Gents, Ladies, and Kids in Kasaragod, Kerala. Curated designs, elegant comfort, and quality customer care.">
+  <meta name="keywords" content="Zanish Clothing, clothing store, fashion Kerala, Perla, Kasaragod, gents clothing, ladies wear, kids fashion, premium cotton clothes">
+  <meta name="author" content="Zanish Clothing">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ==================== LOADING SCREEN ==================== -->
+  <div id="loading-screen">
+    <div class="loader-logo-container">
+      <div id="loader-logo-wrapper">
+        <!-- Javascript renders logo or premium fallback letter here -->
+        <div class="loader-logo-placeholder">Z</div>
+      </div>
+      <div class="loader-ring"></div>
+    </div>
+    <div class="loader-text">Zanish Clothing</div>
+    <div class="loader-subtext">Curating Elegance</div>
+  </div>
+
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header id="header">
+    <div class="navbar">
+      <!-- Dynamic Logo Area -->
+      <a href="#home" class="logo logo-container">
+        <!-- Javascript renders logo or initials here -->
+        <div class="logo-placeholder">Z</div>
+        <span class="logo-text">Zanish <span>Clothing</span></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- Hidden inline menu items for mobile support -->
+        <li style="margin-top: 1.5rem; display: none;" class="mobile-only-link">
+          <a href="#contact" class="btn-contact-nav">Connect Now</a>
+        </li>
+      </ul>
+
+      <!-- Desktop Header Actions -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn-contact-nav">Connect Now</a>
+        
+        <!-- Admin Settings Toggle Gear -->
+        <button class="admin-toggle-btn" id="admin-toggle-btn" title="Open Store Settings">
+          <i class="fa-solid fa-sliders"></i>
+        </button>
+
+        <!-- Mobile Menu Trigger -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="home">
+    <!-- Slider container for background images -->
+    <div class="hero-bg-slider" id="hero-bg-slider">
+      <!-- Javascript dynamically generates active slides here -->
+    </div>
+    
+    <!-- Dark overlay for text readability -->
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Main content -->
+    <div class="hero-content">
+      <span class="hero-tagline">Signature Wardrobes</span>
+      <h1 class="hero-title">Zanish <span>Clothing</span></h1>
+      <p class="hero-description">Curating premium fashion for your everyday elegance.</p>
+      
+      <div class="hero-actions">
+        <a href="#categories" class="btn-primary">Explore Collections</a>
+        <a href="#about" class="btn-secondary">Our Heritage</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== QUALITY BADGES SECTION ==================== -->
+  <section class="badges-section" id="badges">
+    <div class="badges-wrapper">
+      
+      <!-- Badge 1: Premium Materials -->
+      <div class="badge-card">
+        <div class="badge-icon">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+        <h4 class="badge-title">Premium Quality</h4>
+        <p class="badge-desc">Handpicked organic cottons, light linen blends, and rich silks selected for style and comfort.</p>
+      </div>
+      
+      <!-- Badge 2: All Generations -->
+      <div class="badge-card">
+        <div class="badge-icon">
+          <i class="fa-solid fa-people-group"></i>
+        </div>
+        <h4 class="badge-title">Family Collections</h4>
+        <p class="badge-desc">Premium garments tailored perfectly for Gents, Ladies, and Kids, keeping comfort at the center.</p>
+      </div>
+      
+      <!-- Badge 3: WhatsApp Service -->
+      <div class="badge-card">
+        <div class="badge-icon">
+          <i class="fa-solid fa-comments"></i>
+        </div>
+        <h4 class="badge-title">Direct WhatsApp Support</h4>
+        <p class="badge-desc">Seamless and trustable communication. Discuss sizes, fits, and place orders directly with us.</p>
+      </div>
+      
+      <!-- Badge 4: Swift Delivery -->
+      <div class="badge-card">
+        <div class="badge-icon">
+          <i class="fa-solid fa-truck-fast"></i>
+        </div>
+        <h4 class="badge-title">Reliable Delivery</h4>
+        <p class="badge-desc">Enjoy quick, secure shipping right to your doorstep across Kerala and India with secure packaging.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== CATEGORIES & PRODUCT GRID ==================== -->
+  <section class="shop-section" id="categories">
+    <div class="section-header">
+      <span class="section-tagline">Curated Wardrobes</span>
+      <h2 class="section-title">Discover Our Collections</h2>
+    </div>
+
+    <!-- Filter Buttons Pills -->
+    <div class="filter-container">
+      <button class="filter-btn active" data-category="all">All Outfits</button>
+      <button class="filter-btn" data-category="gents">Gents Collection</button>
+      <button class="filter-btn" data-category="ladies">Ladies Collection</button>
+      <button class="filter-btn" data-category="kids">Kids Collection</button>
+    </div>
+
+    <!-- Dynamic Products Grid -->
+    <div class="products-grid" id="products-grid">
+      <!-- JavaScript will dynamically render product cards here -->
+    </div>
+  </section>
+
+
+  <!-- ==================== ABOUT US SECTION ==================== -->
+  <section class="about-section" id="about">
+    <div class="about-wrapper">
+      
+      <div class="about-content">
+        <span class="section-tagline" style="text-align: left;">Behind the Threads</span>
+        <h2 class="about-title">Fashion Designed for <span class="about-accent">Every Generation</span></h2>
+        
+        <p class="about-text">
+          Located in the heart of Perla, Kasaragod, Zanish Clothing is born out of a passion for timeless styling. We believe fashion shouldn't force you to choose between feeling comfortable and looking premium.
+        </p>
+        
+        <div class="quote-card">
+          "Quality is never an accident; it is always the result of intelligent effort and curated selection."
+        </div>
+        
+        <div class="about-features">
+          <div class="about-feature-item">
+            <div class="about-feature-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h5 class="about-feature-title">Tailor-Grade Sizing</h5>
+              <p class="about-feature-desc">Meticulously measured fit charts to guarantee complete comfort for you and your family.</p>
+            </div>
+          </div>
+          
+          <div class="about-feature-item">
+            <div class="about-feature-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <div>
+              <h5 class="about-feature-title">Vibrant & Shaded Tones</h5>
+              <p class="about-feature-desc">Curated color palettes blending soft whites, light yellows, and pastel designs for tropical weather.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image-container">
+        <!-- Premium fashion photography background placeholder -->
+        <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=800&q=80" alt="Zanish Clothing Boutique Showcase" class="about-img-main">
+        <div class="about-img-badge">
+          <div class="about-badge-num">100%</div>
+          <div class="about-badge-text">Trust & Quality Guaranteed</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== CONTACT & LOCATION SECTION ==================== -->
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <span class="section-tagline">Get In Touch</span>
+      <h2 class="section-title">Visit or Contact Us</h2>
+    </div>
+
+    <div class="contact-grid">
+      
+      <!-- Contact Info Cards -->
+      <div class="contact-info-container">
+        <p class="contact-intro">
+          Have any questions about fabric textures, sizing, or availability? Drop us a line on WhatsApp or follow our Instagram handle to catch daily outfit updates and catalog launches!
+        </p>
+
+        <div class="contact-details">
+          <!-- Address Card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <div class="contact-item-label">Store Location</div>
+              <div class="contact-item-value address-display">
+                Zanish Clothing, KK Road, Perla,<br>
+                Kasaragod, Kerala, India - 671552
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+              <div class="contact-item-label">WhatsApp Contact</div>
+              <div class="contact-item-value">
+                <a href="#" target="_blank" class="whatsapp-link">+91 95396 99044</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram Card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+              <div class="contact-item-label">Instagram Profile</div>
+              <div class="contact-item-value">
+                <a href="#" target="_blank" class="instagram-link">@zanishclothing_</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social CTA Buttons -->
+        <div class="social-links">
+          <a href="#" target="_blank" class="social-btn instagram instagram-link" title="Follow us on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" target="_blank" class="social-btn whatsapp whatsapp-link" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Google Maps Integration Map Wrapper -->
+      <div class="contact-map-container">
+        <div class="map-wrapper">
+          <!-- Premium, direct Perla Kerala Google Maps iframe embed -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15582.029813524858!2d75.00892055!3d12.6479007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba49a888c3a9fbf%3A0xe5a3c61c77ecbd0e!2sPerla%2C%20Kerala%20671552!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-grid">
+      
+      <div>
+        <div class="footer-brand-logo logo-container">
+          Zanish <span>Clothing</span>
+        </div>
+        <p class="footer-brand-desc">
+          Providing premium fabrics, vibrant patterns, and contemporary fashion edits for modern gents, elegant ladies, and cozy kids.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#categories">Collections</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Collections</h4>
+        <ul class="footer-links">
+          <li><a href="#categories">Gents Wear</a></li>
+          <li><a href="#categories">Ladies Wear</a></li>
+          <li><a href="#categories">Kids Outfits</a></li>
+          <li><a href="#categories">New Arrivals</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Contact Address</h4>
+        <address class="footer-address address-display">
+          Zanish Clothing,<br>
+          KK Road, Perla,<br>
+          Kasaragod, Kerala,<br>
+          India - 671552
+        </address>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Zanish Clothing. All Rights Reserved. Designed with elegance.</p>
+      <div class="footer-bottom-links">
+        <a href="#home">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== ADMIN DRAWER MODAL ==================== -->
+  <div class="admin-modal-overlay" id="admin-modal-overlay"></div>
+  <div class="admin-modal" id="admin-modal">
+    
+    <div class="admin-header">
+      <div class="admin-title-area">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        <h3>Store Settings</h3>
+      </div>
+      <button class="admin-close-btn" id="admin-close-btn" title="Close Panel">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <!-- Admin Panel Tabs Menu -->
+    <div class="admin-tabs">
+      <button class="admin-tab-btn active" data-tab="general">General Configuration</button>
+      <button class="admin-tab-btn" data-tab="products">Product Catalog</button>
+    </div>
+
+    <div class="admin-content">
+      
+      <!-- Tab 1: General & Background configurations -->
+      <div class="admin-tab-pane active" id="tab-general">
+        <form id="admin-store-info-form">
+          
+          <div class="admin-group">
+            <label class="admin-label" for="admin-store-name">Store Name</label>
+            <input type="text" id="admin-store-name" class="admin-input" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-store-logo">Store Logo Image (Address/URL)</label>
+            <input type="text" id="admin-store-logo" class="admin-input" placeholder="Leave empty for premium text logo fallback">
+            <small style="color: var(--text-muted); font-size: 0.8rem; display:block; margin-top: 0.25rem;">Insert direct web link to your logo file.</small>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-store-whatsapp">WhatsApp Number (For Orders - With Country Code)</label>
+            <input type="text" id="admin-store-whatsapp" class="admin-input" placeholder="e.g. +919539699044" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-store-display-num">WhatsApp Display Format</label>
+            <input type="text" id="admin-store-display-num" class="admin-input" placeholder="e.g. +91 95396 99044" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-store-instagram">Instagram Handle (Username)</label>
+            <input type="text" id="admin-store-instagram" class="admin-input" placeholder="e.g. zanishclothing_" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-hero-quote">Hero Main Quote</label>
+            <input type="text" id="admin-hero-quote" class="admin-input" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-hero-subquote">Hero Subquote</label>
+            <input type="text" id="admin-hero-subquote" class="admin-input" required>
+          </div>
+
+          <hr style="border:0; border-top:1px solid rgba(0,0,0,0.06); margin: 1.5rem 0;">
+          
+          <h4 style="margin-bottom: 1rem; font-size: 1rem;">Hero Slider Backgrounds (Image URL / Address)</h4>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-bg-hero1">Background Slide 1 Address</label>
+            <input type="text" id="admin-bg-hero1" class="admin-input">
+          </div>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-bg-hero2">Background Slide 2 Address</label>
+            <input type="text" id="admin-bg-hero2" class="admin-input">
+          </div>
+
+          <hr style="border:0; border-top:1px solid rgba(0,0,0,0.06); margin: 1.5rem 0;">
+
+          <h4 style="margin-bottom: 1rem; font-size: 1rem;">Store Address Location</h4>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-addr-street">Street/Road</label>
+            <input type="text" id="admin-addr-street" class="admin-input" required>
+          </div>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-addr-city">City</label>
+            <input type="text" id="admin-addr-city" class="admin-input" required>
+          </div>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-addr-state">State</label>
+            <input type="text" id="admin-addr-state" class="admin-input" required>
+          </div>
+          <div class="admin-group">
+            <label class="admin-label" for="admin-addr-pincode">Pincode</label>
+            <input type="text" id="admin-addr-pincode" class="admin-input" required>
+          </div>
+
+          <div class="admin-btn-group">
+            <button type="submit" class="admin-btn">Save General Settings</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Tab 2: Products Catalog CRUD manager -->
+      <div class="admin-tab-pane" id="tab-products">
+        
+        <!-- Live Catalog List -->
+        <h4 style="margin-bottom: 1rem; font-size: 1rem;">Existing Products</h4>
+        <div class="admin-items-list" id="admin-products-list">
+          <!-- Javascript renders rows of products here -->
+        </div>
+
+        <!-- Add/Edit form -->
+        <hr style="border:0; border-top: 1px solid rgba(0,0,0,0.06); margin: 2rem 0;">
+        <h4 id="product-form-title" style="margin-bottom: 1.25rem; font-size: 1.1rem; font-family: var(--font-serif);">Add New Product</h4>
+        
+        <form id="admin-product-form">
+          <input type="hidden" id="admin-p-id">
+          
+          <div class="admin-group">
+            <label class="admin-label" for="admin-p-name">Product Name</label>
+            <input type="text" id="admin-p-name" class="admin-input" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-p-category">Category</label>
+            <select id="admin-p-category" class="admin-select" required>
+              <option value="gents">Gents Collection</option>
+              <option value="ladies">Ladies Collection</option>
+              <option value="kids">Kids Collection</option>
+            </select>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-p-price">Price (₹ - INR)</label>
+            <input type="number" id="admin-p-price" class="admin-input" min="0" required>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-p-image">Product Image Address (URL)</label>
+            <input type="text" id="admin-p-image" class="admin-input" placeholder="https://images.unsplash.com/...">
+            <small style="color: var(--text-muted); font-size: 0.8rem; display:block; margin-top: 0.25rem;">Insert direct web address to product image.</small>
+          </div>
+
+          <div class="admin-group">
+            <label class="admin-label" for="admin-p-desc">Product Description</label>
+            <textarea id="admin-p-desc" class="admin-textarea" required></textarea>
+          </div>
+
+          <div class="admin-btn-group">
+            <button type="submit" id="product-submit-btn" class="admin-btn">Add Product to Store</button>
+            <button type="button" id="admin-p-cancel" class="admin-btn-secondary">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Footer Export Config & Reset (Outside tabs, permanently in sidebar) -->
+      <hr style="border:0; border-top:1px solid rgba(0,0,0,0.1); margin: 3rem 0 1.5rem 0;">
+      
+      <div class="admin-export-box">
+        <h5 class="admin-export-title">Publish Configuration Updates</h5>
+        <p class="admin-export-desc">
+          To save changes permanently across all visitor devices, click download and replace the existing <code>products.json</code> file in your hosting folder with this updated version.
+        </p>
+        <button id="admin-export-btn" class="admin-btn" style="background-color: var(--text-dark); color: var(--bg-primary);">
+          <i class="fa-solid fa-download" style="margin-right: 0.5rem;"></i> Download products.json
+        </button>
+      </div>
+
+      <div style="margin-top: 2rem; text-align: center;">
+        <button id="admin-reset-btn" class="admin-btn-danger">
+          <i class="fa-solid fa-rotate" style="margin-right: 0.25rem;"></i> Discard and Reset Browser Cache
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Javascript Integration -->
+  <script src="./app.js"></script>
+</body>
+</html>

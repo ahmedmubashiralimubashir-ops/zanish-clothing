@@ -1,0 +1,96 @@
+{
+  "storeInfo": {
+    "name": "Zanish Clothing",
+    "contactWhatsApp": "+919539699044",
+    "contactDisplay": "+91 95396 99044",
+    "instagram": "zanishclothing_",
+    "logoUrl": "",
+    "address": {
+      "street": "KK Road, Perla",
+      "city": "Kasaragod",
+      "state": "Kerala",
+      "pincode": "671552",
+      "country": "India"
+    },
+    "heroQuote": "Curating premium fashion for your everyday elegance.",
+    "heroSubquote": "A perfect blend of modern style and timeless comfort for Gents, Ladies, and Kids."
+  },
+  "heroBackgrounds": [
+    "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "products": [
+    {
+      "id": "gents-001",
+      "name": "Premium Cotton Linen Shirt",
+      "category": "gents",
+      "price": 1499,
+      "description": "Ultra-breathable premium cotton linen blend shirt. Perfect for semi-formal and casual wear.",
+      "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "gents-002",
+      "name": "Tailored Fit Comfort Chinos",
+      "category": "gents",
+      "price": 1899,
+      "description": "Smart casual chinos crafted from soft, stretchable cotton twill. Designed for all-day comfort.",
+      "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "gents-003",
+      "name": "Classic Lightweight Summer Blazer",
+      "category": "gents",
+      "price": 3499,
+      "description": "Unstructured linen-blend blazer that adds a touch of sophistication to any casual outfit.",
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "ladies-001",
+      "name": "Elegant Pastel Floral Midi Dress",
+      "category": "ladies",
+      "price": 2299,
+      "description": "Graceful flowy midi dress with delicate floral prints and an adjustable waist belt.",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "ladies-002",
+      "name": "Chic Linen Co-Ord Set",
+      "category": "ladies",
+      "price": 2799,
+      "description": "A stylish matching top and trousers set in a soft beige hue. Effortless styling for modern women.",
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "ladies-003",
+      "name": "Satin Silk Wrap Blouse",
+      "category": "ladies",
+      "price": 1699,
+      "description": "Premium satin wrap blouse with elegant balloon sleeves. Perfect for evenings and formal events.",
+      "imageUrl": "https://images.unsplash.com/photo-1548624149-f9b1859aa7d0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "kids-001",
+      "name": "Unisex Cotton Denim Overalls",
+      "category": "kids",
+      "price": 1299,
+      "description": "Durable, soft denim overalls with adjustable straps. Perfect for active and playful kids.",
+      "imageUrl": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "kids-002",
+      "name": "Organic Cotton Tee & Shorts Set",
+      "category": "kids",
+      "price": 899,
+      "description": "Breathable organic cotton set consisting of a graphic tee and comfy drawstring shorts.",
+      "imageUrl": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "kids-003",
+      "name": "Cozy Knit Crewneck Sweater",
+      "category": "kids",
+      "price": 1199,
+      "description": "Super soft knit cotton sweater to keep your little ones warm and cozy throughout the day.",
+      "imageUrl": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
